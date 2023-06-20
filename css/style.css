@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
  width: 100%;
@@ -15,16 +16,39 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    z-index: 99;
+    
 }
 .logo{
     width: 50%;
 }
 .logo img{
-    width: 92px;
+    margin-top: 10px;
+    width: 100px;
 }
 .menu ul{
     display: flex;
 }
 .menu ul li{
     padding: 0 20px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.menu ul li a:hover{
+    color: #156fc3;
+}
+
+/**************main.home***********/
+
+#home .container{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background.png);
+    background-size: cover;
 }
