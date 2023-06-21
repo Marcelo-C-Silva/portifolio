@@ -49,7 +49,7 @@ header{
 #home .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(0, #120c56, #000000);
+    background: url(../img/1687375291747.png);
     overflow: hidden;
     background-size: cover;
 }
@@ -63,6 +63,7 @@ header{
     position: fixed;
     z-index: 999;
     margin-top: 50px;
+    
 }
 #home .container .icons ion-icon{
     padding: 30px 0;
@@ -81,21 +82,21 @@ header{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    padding: 0 60px;
+    padding: 0 40px;
 }
 #home .container .title h1{
     color: #fff;
     text-transform: uppercase;
-    font-size: 8rem;
+    font-size: 3rem;
     letter-spacing: 5px;
 
 }
 #home .container .title h2{
     color: #fff;
     text-transform: uppercase;
-    font-size: 3rem;
-    letter-spacing: 40px;
-    margin-left: 30px;
+    font-size: 1.9rem;
+    letter-spacing: 35px;
+    
 }
 #home .container .title h3{
     color: #fff;
@@ -103,14 +104,14 @@ header{
     font-size: 1.2rem;
     letter-spacing: 30px;
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 /**************about***********/
 
 #about .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(0, #120c56,  #120c56);
+    background: linear-gradient(0, #120c56, #000000);
     background-size: cover;
     display: flex;
     justify-content: space-between;
