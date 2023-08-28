@@ -573,4 +573,12 @@ footer a {
         width: 60%;
         height: 60%;
     }
+    
+#contact .container .contact-left .linha {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
