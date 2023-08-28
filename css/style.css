@@ -8,6 +8,8 @@
 body {
     width: 100%;
     height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+    background-size: cover;
 }
 
 header {
@@ -51,13 +53,17 @@ header {
     color: #231b7a;
 }
 
+header .menu-mobile{
+    display: none;
+}
+header .btn-mobile{
+    display: none;
+}
 /**************main.home***********/
 
 #home .container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(0, #120c56, #000000);
-    background-size: cover;
 }
 
 #home .container .icons {
@@ -108,8 +114,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-size: 1.9rem;
-    letter-spacing: 8px;
-    margin-left: 35px;
+    letter-spacing: 4px;
 
 
 }
@@ -439,20 +444,25 @@ footer a {
 }
 
 @media screen and (max-width: 960px) {
-    header .logo{
+    header .logo {
         width: 600px;
     }
-    header .menu{
+
+    header .menu {
         display: none;
     }
-    header .btn-mobile{
+
+    header .btn-mobile {
         display: block;
     }
-    header .btn-mobile ion-icon{
-        color: #fff;
+
+    header .btn-mobile ion-icon {
+        color: #ffffff;
         font-size: 1.5rem;
     }
-    header .menu-mobile{
+
+    header .menu-mobile {
+        display: none;
         width: 50%;
         height: 20vh;
         box-shadow: 0 0 15px 0 rgb(21, 111, 195, 0.5);
@@ -460,5 +470,94 @@ footer a {
         top: 20px;
         border-radius: 10px;
         background: #120c56;
+    }
+
+    header .menu-mobile ul {
+        text-align: center;
+
+    }
+
+    header .menu-mobile ul li {
+        list-style: none;
+        padding: 12px 0;
+
+    }
+
+    header .menu-mobile ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    #home .container .icons {
+        padding: 0 20px;
+    }
+
+    #home .container .title {
+        align-items: center;
+    }
+
+    #home .container .title h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #home .container .title h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #home .container .title h3 {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    #about .container .title {
+        align-items: center;
+    }
+    #about .container .title h1{
+        text-align: center;
+    }
+    #about .container .title .presentation{
+        text-align: center;
+    }
+
+    #about .container .box-title {
+        width: 100%;
+        height: 40vh;
+        
+    }
+
+    #contact .container .content-contact {
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #contact .content-contact .contact-left h1 {
+        font-size: 1.5rem;
+    }
+    #contact .content-contact .contact-left ion-icon{
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+    #contact .content-contact .contact-left span{
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+    #contact .content-contact .contact-right h1{
+        font-size: 1.5rem;
+        margin-top: 80px;
+    }
+    #contact .container .contact-right input[type=email],
+    #contact .container .contact-right input[type=text]{
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    #contact .container .contact-right textarea{
+        padding: 10px 15px;
+        font-size: 1rem;
     }
 }
