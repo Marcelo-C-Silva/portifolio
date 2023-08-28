@@ -437,3 +437,28 @@ footer a {
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 960px) {
+    header .logo{
+        width: 600px;
+    }
+    header .menu{
+        display: none;
+    }
+    header .btn-mobile{
+        display: block;
+    }
+    header .btn-mobile ion-icon{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    header .menu-mobile{
+        width: 50%;
+        height: 20vh;
+        box-shadow: 0 0 15px 0 rgb(21, 111, 195, 0.5);
+        position: fixed;
+        top: 20px;
+        border-radius: 10px;
+        background: #120c56;
+    }
+}
