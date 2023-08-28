@@ -53,12 +53,14 @@ header {
     color: #231b7a;
 }
 
-header .menu-mobile{
+header .menu-mobile {
     display: none;
 }
-header .btn-mobile{
+
+header .btn-mobile {
     display: none;
 }
+
 /**************main.home***********/
 
 #home .container {
@@ -515,17 +517,19 @@ footer a {
     #about .container .title {
         align-items: center;
     }
-    #about .container .title h1{
+
+    #about .container .title h1 {
         text-align: center;
     }
-    #about .container .title .presentation{
+
+    #about .container .title .presentation {
         text-align: center;
     }
 
     #about .container .box-title {
         width: 100%;
         height: 40vh;
-        
+
     }
 
     #contact .container .content-contact {
@@ -539,24 +543,29 @@ footer a {
     #contact .content-contact .contact-left h1 {
         font-size: 1.5rem;
     }
-    #contact .content-contact .contact-left ion-icon{
+
+    #contact .content-contact .contact-left ion-icon {
         font-size: 1rem;
         padding: 5px 0;
     }
-    #contact .content-contact .contact-left span{
+
+    #contact .content-contact .contact-left span {
         font-size: 1rem;
         padding: 5px 0;
     }
-    #contact .content-contact .contact-right h1{
+
+    #contact .content-contact .contact-right h1 {
         font-size: 1.5rem;
         margin-top: 80px;
     }
+
     #contact .container .contact-right input[type=email],
-    #contact .container .contact-right input[type=text]{
+    #contact .container .contact-right input[type=text] {
         padding: 10px 15px;
         font-size: 1rem;
     }
-    #contact .container .contact-right textarea{
+
+    #contact .container .contact-right textarea {
         padding: 10px 15px;
         font-size: 1rem;
     }
